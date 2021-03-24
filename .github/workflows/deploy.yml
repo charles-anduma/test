@@ -1,0 +1,16 @@
+name: Deploy to Forge
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  laravel-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1) Call Deploy
+      - name: Call Forge to deploy
+        run: |
+          curl https://forge.laravel.com/servers/xxxxxx
