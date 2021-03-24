@@ -15,7 +15,7 @@ on:
       - staging
 
 jobs:
-  laravel-deploy:
+  cypress-tests:
     runs-on: ubuntu-latest
 
     steps:

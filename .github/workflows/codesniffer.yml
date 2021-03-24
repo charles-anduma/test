@@ -4,7 +4,7 @@ on:
   push
 
 jobs:
-  laravel-deploy:
+  psr2-checks:
     runs-on: ubuntu-latest
 
     steps:
